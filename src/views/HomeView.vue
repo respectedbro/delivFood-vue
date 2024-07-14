@@ -1,0 +1,267 @@
+<script setup>
+import Header from '../components/Header.vue'
+
+</script>
+
+<template>
+	<div class="page-wrapper">
+		
+		<Header />
+
+		<main class="main">
+			<section class="banner">
+				<div class="container">
+					<div class="banner-item">
+						<h2 class="banner-item--title">Онлайн-сервис <br> доставки еды на дом</h2>
+						<p class="banner-item--subtitle">
+							Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="products">
+				<div class="container">
+					<div class="products-header">
+						<h3 class="products-header--title">
+							Рестораны
+						</h3>
+						<input type="text" class="products-header--search" placeholder="Поиск блюд и ресторанов">
+					</div>
+					<div class="products-wrapper" id="rests-container">
+						<a href="./goods.html" class="products-card">
+							<div class="products-card__image">
+								<img src="./images/rests/image1.jpg" alt="rests-1">
+							</div>
+							<div class="products-card__descript">
+								<div class="products-card__descript--row">
+									<h4 class="products-card__descript--title">Пицца плюс</h4>
+									<div class="products-card__descript--badge">50 мин</div>
+								</div>
+								<div class="products-card__descript--row">
+									<div class="products-card__descript-info">
+										<div class="products-card__descript-info-raiting">
+											<img src="./images/icons/star.svg" alt="star">
+											4.5
+										</div>
+										<div class="products-card__descript-info--price">
+											От 900 ₽
+										</div>
+										<div class="products-card__descript-info--group">
+											Пицца
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="./goods.html" class="products-card">
+							<div class="products-card__image">
+								<img src="./images/rests/image2.jpg" alt="rests-2">
+							</div>
+							<div class="products-card__descript">
+								<div class="products-card__descript--row">
+									<h4 class="products-card__descript--title">Тануки</h4>
+									<div class="products-card__descript--badge">50 мин</div>
+								</div>
+								<div class="products-card__descript--row">
+									<div class="products-card__descript-info">
+										<div class="products-card__descript-info-raiting">
+											<img src="./images/icons/star.svg" alt="star">
+											4.5
+										</div>
+										<div class="products-card__descript-info--price">
+											От 900 ₽
+										</div>
+										<div class="products-card__descript-info--group">
+											Пицца
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="./goods.html" class="products-card">
+							<div class="products-card__image">
+								<img src="./images/rests/image3.jpg" alt="rests-3">
+							</div>
+							<div class="products-card__descript">
+								<div class="products-card__descript--row">
+									<h4 class="products-card__descript--title">FoodBand</h4>
+									<div class="products-card__descript--badge">50 мин</div>
+								</div>
+								<div class="products-card__descript--row">
+									<div class="products-card__descript-info">
+										<div class="products-card__descript-info-raiting">
+											<img src="./images/icons/star.svg" alt="star">
+											4.5
+										</div>
+										<div class="products-card__descript-info--price">
+											От 900 ₽
+										</div>
+										<div class="products-card__descript-info--group">
+											Пицца
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="./goods.html" class="products-card">
+							<div class="products-card__image">
+								<img src="./images/rests/image4.jpg" alt="rests-4">
+							</div>
+							<div class="products-card__descript">
+								<div class="products-card__descript--row">
+									<h4 class="products-card__descript--title">Жадина-пицца</h4>
+									<div class="products-card__descript--badge">50 мин</div>
+								</div>
+								<div class="products-card__descript--row">
+									<div class="products-card__descript-info">
+										<div class="products-card__descript-info-raiting">
+											<img src="./images/icons/star.svg" alt="star">
+											4.5
+										</div>
+										<div class="products-card__descript-info--price">
+											От 900 ₽
+										</div>
+										<div class="products-card__descript-info--group">
+											Пицца
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="./goods.html" class="products-card">
+							<div class="products-card__image">
+								<img src="./images/rests/image5.jpg" alt="rests-5">
+							</div>
+							<div class="products-card__descript">
+								<div class="products-card__descript--row">
+									<h4 class="products-card__descript--title">Точка еды</h4>
+									<div class="products-card__descript--badge">50 мин</div>
+								</div>
+								<div class="products-card__descript--row">
+									<div class="products-card__descript-info">
+										<div class="products-card__descript-info-raiting">
+											<img src="./images/icons/star.svg" alt="star">
+											4.5
+										</div>
+										<div class="products-card__descript-info--price">
+											От 900 ₽
+										</div>
+										<div class="products-card__descript-info--group">
+											Пицца
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="./goods.html" class="products-card">
+							<div class="products-card__image">
+								<img src="./images/rests/image6.jpg" alt="rests-6">
+							</div>
+							<div class="products-card__descript">
+								<div class="products-card__descript--row">
+									<h4 class="products-card__descript--title">PizzaBurger</h4>
+									<div class="products-card__descript--badge">50 мин</div>
+								</div>
+								<div class="products-card__descript--row">
+									<div class="products-card__descript-info">
+										<div class="products-card__descript-info-raiting">
+											<img src="./images/icons/star.svg" alt="star">
+											4.5
+										</div>
+										<div class="products-card__descript-info--price">
+											От 900 ₽
+										</div>
+										<div class="products-card__descript-info--group">
+											Пицца
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+			<div class="cart-modal__overlay">
+				<div class="cart-modal">
+					<div class="cart-modal__header">
+						<h2 class="cart-modal__header--title">Корзина</h2>
+						<span class="cart-modal__header--close">
+							<img src="./images/icons/close.svg" alt="close">
+						</span>
+					</div>
+
+					<div class="cart-modal__body">
+						<div class="cart-item">
+							<p class="cart-item__title">Ролл угорь стандарт</p>
+
+							<div class="cart-item__controls">
+								<div class="cart-item__controls--price">250 ₽</div>
+								<button class="btn btn-outline">-</button>
+								<div class="cart-item__controls--count">1</div>
+								<button class="btn btn-outline">+</button>
+							</div>							
+						</div>
+						<div class="cart-item">
+							<p class="cart-item__title">Ролл угорь стандарт</p>
+
+							<div class="cart-item__controls">
+								<div class="cart-item__controls--price">250 ₽</div>
+								<button class="btn btn-outline">-</button>
+								<div class="cart-item__controls--count">1</div>
+								<button class="btn btn-outline">+</button>
+							</div>							
+						</div>
+						<div class="cart-item">
+							<p class="cart-item__title">Ролл угорь стандарт</p>
+
+							<div class="cart-item__controls">
+								<div class="cart-item__controls--price">250 ₽</div>
+								<button class="btn btn-outline">-</button>
+								<div class="cart-item__controls--count">1</div>
+								<button class="btn btn-outline">+</button>
+							</div>							
+						</div>
+					</div>
+
+					<div class="cart-modal__footer">
+						<div class="cart-modal__footer--price">
+							1250 ₽
+						</div>
+						<div class="cart-modal__footer--controls">
+							<button class="btn btn-primary">
+								Оформить заказ
+							</button>
+							<button class="btn btn-outline">
+								Отмена
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-box">
+					<a href="./index.html" class="footer-logo logo">
+						<img src="./images/logo.png" alt="logo">
+					</a>
+					<div class="footer-nav">
+						<ul>
+							<li>Ресторанам </li>
+							<li>Курьерам</li>
+							<li>Пресс-центр</li>
+							<li>Контакты</li>
+						</ul>
+					</div>
+					<div class="footer-social">
+						<img src="./images/social/inst.png" alt="inst">
+						<img src="./images/social/fb.png" alt="fb">
+						<img src="./images/social/vk.png" alt="vk">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</template>
